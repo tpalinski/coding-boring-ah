@@ -15,11 +15,17 @@
     "commands": [
       {
         "command": "coding-boring-ah.greeting",
-        "title": "Boring Ah Coding"
+        "title": "Boring Ah Coding",
+        "category": "Coding Boring Ah"
       },
       {
         "command": "coding-boring-ah.start",
         "title": "Entertain Me",
+        "category": "Coding Boring Ah"
+      },
+      {
+        "command": "coding-boring-ah.next",
+        "title": "Another Family Guy Video",
         "category": "Coding Boring Ah"
       }
     ]
