@@ -30,15 +30,25 @@ export function activate(context: vscode.ExtensionContext) {
 			</head>
 			<body>
 				<iframe 
-					width="400" 
-					height="300" 
+					width="560" 
+					height="315" 
 					src="https://www.youtube.com/embed/T0mxP9_5RPM?autoplay=1&mute=1" 
 					title="Family guy" 
 					frameborder="0"
 					allow="autoplay"
+					allowfullscreen
+					style="padding-bottom: 50px">
+				</iframe>
+				<iframe 
+					width="560" 
+					height="315" 
+					src="https://www.youtube.com/embed/ChBg4aowzX8?autoplay=1&mute=1" 
+					title="Subway Surfers" 
+					frameborder="0"
+					allow="autoplay"
 					allowfullscreen>
 				</iframe>
-				
+
 			</body>
 			</html>`;
 		}
