@@ -28,6 +28,13 @@
         "title": "Another Family Guy Video",
         "category": "Coding Boring Ah"
       }
+    ],
+    "keybindings": [
+      {
+        "command": "coding-boring-ah.next",
+        "key": "ctrl+shift+l",
+        "mac": "cmd+shift+l"
+      }
     ]
   },
   "scripts": {

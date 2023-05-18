@@ -6,7 +6,8 @@ const familyGuyRepository: String[] = [
 	"https://www.youtube.com/embed/HzifH0eYjr0",
 	"https://www.youtube.com/embed/T0mxP9_5RPM",
 	"https://www.youtube.com/embed/EL4UdaLTVWc",
-	"https://www.youtube.com/embed/HZulBIgRLLE"
+	"https://www.youtube.com/embed/HZulBIgRLLE",
+	"https://www.youtube.com/embed/HzifH0eYjr0",
 ]
 
 const getRandomFamilyGuyEpisode = (): String => {
