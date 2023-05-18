@@ -18,9 +18,22 @@ export function activate(context: vscode.ExtensionContext) {
 				enableScripts: true
 			}
 		)
+		
+		const familyGuyRepository: String[] = [
+			"https://www.youtube.com/embed/HzifH0eYjr0",
+			"https://www.youtube.com/embed/T0mxP9_5RPM",
+			"https://www.youtube.com/embed/EL4UdaLTVWc",
+			"https://www.youtube.com/embed/HZulBIgRLLE"
+		]
 
+		const getRandomFamilyGuyEpisode = (): String => {
+			let idx = Math.floor(Math.random() * familyGuyRepository.length)
+			return familyGuyRepository[idx];
+		}
 
+		
 		const createInitialView = () => {
+			let video = getRandomFamilyGuyEpisode();
 			return `<!DOCTYPE html>
 			<html lang="en">
 			<head>
@@ -32,7 +45,7 @@ export function activate(context: vscode.ExtensionContext) {
 				<iframe 
 					width="560" 
 					height="315" 
-					src="https://www.youtube.com/embed/T0mxP9_5RPM?autoplay=1&mute=1" 
+					src="${video}?autoplay=1&mute=1" 
 					title="Family guy" 
 					frameborder="0"
 					allow="autoplay"
