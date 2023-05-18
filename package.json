@@ -16,12 +16,17 @@
       {
         "command": "coding-boring-ah.greeting",
         "title": "Boring Ah Coding"
+      },
+      {
+        "command": "coding-boring-ah.start",
+        "title": "Entertain Me",
+        "category": "Coding Boring Ah"
       }
     ]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
-    "compile": "tsc -p ./",
+    "compile": "tsc",
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
