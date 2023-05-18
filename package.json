@@ -1,8 +1,10 @@
 {
   "name": "coding-boring-ah",
   "displayName": "Coding Boring Ah",
-  "description": "Can't focus during your coding session?    ",
-  "version": "0.0.1",
+  "description": "Can't focus during your coding session? Worry not, we've got you covered!",
+  "version": "1.0.0",
+  "publisher": "tpalinski",
+  "repository": "https://github.com/tpalinski/coding-boring-ah",
   "engines": {
     "vscode": "^1.78.0"
   },
