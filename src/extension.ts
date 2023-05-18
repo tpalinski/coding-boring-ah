@@ -7,6 +7,8 @@ const familyGuyRepository: String[] = [
 	"https://www.youtube.com/embed/T0mxP9_5RPM",
 	"https://www.youtube.com/embed/EL4UdaLTVWc",
 	"https://www.youtube.com/embed/HZulBIgRLLE",
+	"https://www.youtube.com/embed/Dn1WJzkGPLk",
+	"https://www.youtube.com/embed/8XU9nMBPI9I",
 	"https://www.youtube.com/embed/HzifH0eYjr0",
 ]
 
