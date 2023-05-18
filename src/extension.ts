@@ -28,6 +28,7 @@ export function activate(context: vscode.ExtensionContext) {
 	// Show webview
 	let wv = vscode.commands.registerCommand('coding-boring-ah.start', () => {
 		// create webview
+		if(currentPanel !== undefined) return;
 		const view = vscode.window.createWebviewPanel(
 			'funny-moments',
 			'Focus Aid', //title
@@ -81,6 +82,14 @@ export function activate(context: vscode.ExtensionContext) {
 		}
 
 		view.webview.html = createInitialView();
+
+		currentPanel.onDidDispose(
+			() => {
+			  currentPanel = undefined;
+			},
+			undefined,
+			context.subscriptions
+		  );
 	});
 	context.subscriptions.push(wv);
 
