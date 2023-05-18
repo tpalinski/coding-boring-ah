@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "coding-boring-ah.helloWorld",
-        "title": "Hello World"
+        "command": "coding-boring-ah.greeting",
+        "title": "Boring Ah Coding"
       }
     ]
   },
