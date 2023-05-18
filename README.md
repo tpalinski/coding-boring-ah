@@ -19,3 +19,6 @@ No known issues
 
 Initial release
 
+## Contributing
+We are currently looking for more working links for Family Guy videos, which can be placed in `familyGuyRepository` in [main extension file](/src/extension.ts)
+
